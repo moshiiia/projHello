@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'proj-hello-app'
         DOCKER_IMAGE = 'proj-hello-app:latest'
-        PORT = '8080' // Порт для использования контейнером
+        PORT = '8080'
     }
 
     stages {
